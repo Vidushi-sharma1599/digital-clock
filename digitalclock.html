@@ -1,0 +1,50 @@
+<html>
+
+    <head>
+    
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="css/digitalclock.css">
+
+    <script src="script.js"></script>
+
+    </head>
+    <body onload="startClock()" class="abc">
+    <h1 class="text"><u><i><b>Digital Clock</b></u></i></h1>
+
+        
+    <div class="datetime">
+        <div class="timeDate">
+        <div class="time">
+        <h2><span id="hour">00</span>:
+        <span id="minutes">00</span>:
+        <span id="seconds">00</span>
+        <span id="period">AM</span></h2>
+        </div>
+
+        <div class="date">
+            <p><span id="dayname"><br>Day</span>/<span id="month">Month</span>-<span id="daynum">00</span>/<span id="year">Year</span></p>
+        </div>
+        </div>
+
+    <div class="timing">
+        <div class="second">
+        <label for="time">Enter time in seconds:</label><br><br>
+        <input type="number" id="time" name="time" min="1" required>
+        </div><br>
+        <div id="timer"><h2>00:00:00</h3></div><br>
+        <div id="buttons">
+        <button id="start">Start</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+        </div>
+    </div> 
+    </div>
+    
+    
+
+<script src="js/digitalclock.js">
+    </script>
+
+    
+    </body>
+</html>

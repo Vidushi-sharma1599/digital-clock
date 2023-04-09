@@ -1,0 +1,63 @@
+body{
+    background-color:sandybrown;
+    background-color: radial-gradient(ellipse at center, sandybrown  0%, pink 70%);
+    background-size: 100%;
+    text-align:left;      
+}
+abc{
+    background-color: slategray;
+}
+.abc:hover{
+    background-color:blanchedalmond;
+    }
+
+h1{
+    margin-bottom: 180px;
+    color: #322a0e;
+    }
+.timing{
+    border: 2px solid rgb(178, 194, 29);
+    margin-left: 450px;
+    background-color: #da6d6d;
+    width: 60%;
+    
+    }
+.timeDate:hover, .timing:hover{
+    background-color: rgb(136, 63, 114);
+    }
+.timing{
+    padding: 20px 0 20px 0px;
+}
+label{
+    font-size: 20px;
+}
+input{
+    border: 1px solid black;
+    padding: 8px;
+
+    }
+#start, #stop, #reset{
+    border: 1px solid black;
+    padding: 5px 25px;
+    border-radius: 5px;
+    background-color: rgb(251, 223, 100);
+}
+#start:hover, #stop:hover, #reset:hover{
+    background-color: #f9a640;
+}
+
+.text {
+    letter-spacing: 0.1em;
+    font-size: 50px;
+    padding: 20px 0 0;
+}
+.timeDate{
+    letter-spacing: 0.1em;
+    font-size: 30px;
+    border: 3px solid rgb(178, 194, 29);
+    margin-left:50px;
+    margin-top: 80px;
+    background-color: #da6d6d;
+    width: 50%;
+    height: 35%;
+}
